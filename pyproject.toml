@@ -12,7 +12,8 @@ dependencies = [
     "requests>=2.34.2",
     "rich>=15.0.0",
 ]
-
+[project.scripts]
+epita-sanjith-ganesa-pandiyan-ipops = "epita_sanjith_ganesa_pandiyan_ipops.cli:main"
 [build-system]
 requires = ["uv_build>=0.12.3,<0.13.0"]
 build-backend = "uv_build"
